@@ -15,7 +15,11 @@ import com.dev_tools.project_demonstartaion.entity.Student;
 
 @Controller
 public class StudentController {
-	
+	  /*
+     * This is a multi-line comment.
+     * It can span across several lines
+     * to provide detailed explanations.
+     */
 	 private final StudentService studentService;
 	
 	public StudentController(StudentService studentService) {
