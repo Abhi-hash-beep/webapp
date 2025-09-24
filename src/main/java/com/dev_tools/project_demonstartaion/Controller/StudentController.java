@@ -19,6 +19,11 @@ public class StudentController {
 	 private final StudentService studentService;
 	
 	public StudentController(StudentService studentService) {
+		  /*
+         * This is a multi-line comment.
+         * It can be used for longer explanations
+         * or to comment out blocks of code.
+         */
 		   this.studentService = studentService;
 		}
 
